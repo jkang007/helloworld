@@ -10,6 +10,19 @@ __date__ = "$Dec 17, 2015 10:34:25 AM$"
 
 from flask import Flask, render_template, json, request
 app = Flask(__name__)
+=======
+# To change this template file, choose Tools | Templates
+# and open the template in the editor.
+
+__author__ = "Family Room"
+__date__ = "$Dec 17, 2015 10:34:25 AM$"
+
+# if __name__ == "__main__":
+#    print "Hello World"
+
+from flask import Flask, render_template, json, request
+app = Flask(__name__)
+>>>>>>> feature1
 
 from flask.ext.mysql import MySQL
 mysql = MySQL()
