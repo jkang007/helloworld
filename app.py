@@ -13,7 +13,9 @@ app = Flask(__name__)
 
 from flask.ext.mysql import MySQL
 mysql = MySQL()
+
 # MySQL configurations
+# using a local mysql engine
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'mysql'
 app.config['MYSQL_DATABASE_DB'] = 'BucketList'
